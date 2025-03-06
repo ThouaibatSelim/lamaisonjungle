@@ -1,5 +1,6 @@
 import { plantesListe } from "../datas/plantList";
 import '../styles/ShoppingList.css';
+import CareScale from "./CareScale";
 
 function ShoppingList() {
 
@@ -11,13 +12,14 @@ cat.includes(plante.category) ? cat : cat.concat(plante.category),
 []
 ) ;
 
+
 console.log("categories plantes: ", categories);
 
     return (
-        <div>
+    <div>
 
-<h3>Catégories</h3>
-    {/* afficher catégories */}
+    <h3>Catégories</h3>
+        {/* afficher catégories */}
                 <ul>
                         {categories.map((mesCat) => (
                       <li key={mesCat}> {mesCat} </li>   
@@ -28,13 +30,16 @@ console.log("categories plantes: ", categories);
      {/* afficher liste des plantes */}
             <ul className="lmj-plant-list"> 
                 {plantesListe.map((plante) => (
-                    <li key={plante.id} className="lmj-plant-item" > {plante.name} 
-                    {/* <br></br> ({plante.category}) */}
+                    <li key={plante.id} className="lmj-plant-item" > 
+                    
+                {plante.name} 
+                <CareScale lumiere = {plante.light} typePlante = 'lumiere' />
+                <CareScale lumiere = {plante.water} typePlante = 'eau' />
+
                     </li>
 
-                ) )}
-                </ul>
- 
+                ))}
+            </ul>
 
         </div>
     )

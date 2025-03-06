@@ -4,7 +4,7 @@ export const plantesListe = [
 		category: 'classique',
 		id: '1ed',
 		water: false,
-		light: false
+		light: true
 	},
 	{
 		name: 'ficus lyrata',
@@ -18,14 +18,14 @@ export const plantesListe = [
 		name: 'yucca',
 		category: 'classique',
 		id: '4kk',
-		water: false,
+		water: true,
 		light: false
 	},
 	{
 		name: 'olivier',
 		category: 'extérieur',
 		id: '5pl',
-		water: true,
+		water: false,
 		light: true
 	},
 	{
@@ -33,7 +33,7 @@ export const plantesListe = [
 		category: 'extérieur',
 		id: '6wn',
 		water: true,
-		light: true
+		light: false
 	},
 
 ];
