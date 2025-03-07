@@ -1,13 +1,13 @@
 export const plantesListe = [
 	{
-		name: 'monstera',
+		name: 'Monstera',
 		category: 'classique',
 		id: '1ed',
 		water: false,
 		light: true
 	},
 	{
-		name: 'ficus lyrata',
+		name: 'Ficus Lyrata',
 		category: 'classique',
 		id: '2ab',
 		water: true,
@@ -15,21 +15,21 @@ export const plantesListe = [
 
 	},
 	{
-		name: 'yucca',
+		name: 'Yucca',
 		category: 'classique',
 		id: '4kk',
 		water: true,
 		light: false
 	},
 	{
-		name: 'olivier',
+		name: 'Olivier',
 		category: 'extérieur',
 		id: '5pl',
 		water: false,
 		light: true
 	},
 	{
-		name: 'palmier',
+		name: 'Palmier',
 		category: 'extérieur',
 		id: '6wn',
 		water: true,
