@@ -12,8 +12,7 @@ cat.includes(plante.category) ? cat : cat.concat(plante.category),
 []
 ) ;
 
-
-console.log("categories plantes: ", categories);
+console.log("catégories plantes: ", categories);
 
     return (
     <div>

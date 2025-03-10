@@ -4,7 +4,6 @@
     display: flex;
     flex-wrap: wrap;
     max-width: 800px;
-
 }
 
 .lmj-plant-item{
@@ -20,4 +19,8 @@
     justify-content: center;
     flex-direction: column;
     position: relative;
+}
+
+h3{
+    padding-left: 20px;
 }
